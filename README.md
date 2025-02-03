@@ -66,16 +66,16 @@ def push_data_to_powerbi():
             "humidity": round(random.uniform(40, 60), 2)
         }
 
-        # Send data to Power BI
+          # Send data to Power BI
         response = requests.post(push_url, json=[data])
 
-        if response.status_code == 200:
-            print(f"Data sent to Power BI: {data}")
-        else:
-            print(f"Error sending data: {response.status_code}, {response.text}")
-
+           if response.status_code == 200:
+               print(f"Data sent to Power BI: {data}")
+          else:
+              print(f"Error sending data: {response.status_code}, {response.text}")
+  
         # Wait for a few seconds before sending the next data
-        time.sleep(5)
+         time.sleep(5)
 
 # Start pushing data
 push_data_to_powerbi()
