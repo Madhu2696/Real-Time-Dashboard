@@ -55,7 +55,6 @@ import time
 from datetime import datetime
 
 # Power BI Push URL (get this from the Streaming Dataset page in Power BI)
-push_url = 'https://api.powerbi.com/beta/1e355c04-e0a4-42ed-8e2d-7351591f0ef1/datasets/37c984a5-3f1f-45ed-ad45-feed0286ef8c/rows?experience=power-bi&key=9ItD%2BiwC9ol7O0msgK97W%2FIyXDVatd95S7t2St1ehZVeGbycZUQWWj0GcNiPfeTwQCiptERyCIMFGrlsewZmPg%3D%3D'
 
 def push_data_to_powerbi():
     while True:
@@ -103,7 +102,7 @@ Once your report is created, pin the visualizations (charts, graphs) to a dashbo
 This dashboard will now automatically update in real-time as new data is streamed.
 
 
-Dashboardlink:https://app.powerbi.com/groups/d0789cf0-5bd7-40d7-b038-9d72dd9d0b0e/dashboards/1a497749-73bc-421a-a7d3-fe0c7795f7c4?experience=power-bi
+Output Report:
 
 
 
