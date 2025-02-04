@@ -1,3 +1,18 @@
+
+**COMPANY** : CODTECH IT SOLUTIONS
+
+ **NAME** : NERUSU MADHU JAHNAVI
+
+**INTERNID** : CT6WNSZ
+
+**DOMAIN** : POWER BI
+
+**DURATION** : 6 WEEKS
+
+
+#### DESCRIPTION ####
+
+
 ******REAL-TIME DASHBOARD******
 
 ### A REAL-TIME DASHBOARD USING STREAMING DATA  (A SIMULATED API FEED) #####
@@ -8,7 +23,7 @@ Power BI supports real-time data streaming through the Power BI Service and Powe
 1. Prepare Your Streaming Data (API Feed)
 To use streaming data, you'll need an API that sends data at intervals..
 
-For the sake of this example, let's assume we have an API that provides data in JSON format, like this:
+For the sake of this example, let's assume  have an API that provides data in JSON format, like this:
 
 json
 {
